@@ -1,0 +1,50 @@
+const express =require("express")
+const PrisonQ = require('../queries/prison')
+const prisonerQ = require('../queries/prisoner')
+const guardQ = require("../queries/guard")
+const paroleQ = require("../queries/parole")
+const punishQ = require("../queries/punishment")
+const visitorQ = require("../queries/visitor")
+const aggregation = require('../aggregation')
+const router = express.Router()
+
+router.post('/CreatePrison',PrisonQ.CreatePrison)
+router.post('/CreatePrisoner',prisonerQ.Createprisoner)
+router.post('/CreateGuard',guardQ.Createguard)
+router.post('/CreateParole',paroleQ.Createparole)
+router.post('/CreatePunishment',punishQ.Createpunishment)
+router.post('/CreateVisitor',visitorQ.Createvisitor)
+
+router.put('/UpdatePrison',PrisonQ.updatePrison)
+router.put('/UpdatePrisoner',prisonerQ.updateprisoner)
+router.put('/UpdateGuard',guardQ.updateguard)
+router.put('/UpdateParole',paroleQ.updateparole)
+router.put('/UpdatePunishment',punishQ.updatepunishment)
+router.put('/UpdateVisitor',visitorQ.updatevisitor)
+
+router.delete('/DeletePrison',PrisonQ.deletePrison)
+router.delete('/DeletePrisoner',prisonerQ.deleteprisoner)
+router.delete('/DeleteGuard',guardQ.deleteguard)
+router.delete('/DeleteParole',paroleQ.deleteparole)
+router.delete('/DeletePunishment',punishQ.deletepunishment)
+router.delete('/DeleteVisitor',visitorQ.deletevisitor)
+
+// router.get('/getprison',PrisonQ.getPrisonById)
+// router.get('/getprisoner',prisonerQ.getprisonerById)
+// router.get('/getguard',guardQ.getguardById)
+// router.get('/getparole',paroleQ.getparoleById)
+// router.get('/getpunishment',punishQ.getpunishmentById)
+// router.get('/getVisitor',visitorQ.getvisitorById)
+
+router.get('/ReadPrison',PrisonQ.getPrison)
+router.get('/ReadPrisoner',prisonerQ.getprisoner)
+router.get('/ReadGuard',guardQ.getguard)
+router.get('/ReadParole',paroleQ.getparole)
+router.get('/ReadPunishment',punishQ.getpunishment)
+router.get('/ReadVisitor',visitorQ.getvisitor)
+
+router.get('/Aggregate1',aggregation.agg1)
+router.get('/Aggregate2',aggregation.agg2)
+
+
+module.exports = router
