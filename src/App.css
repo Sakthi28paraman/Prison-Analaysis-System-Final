@@ -1,0 +1,139 @@
+.App{
+    background-image: url("prison.jpg");
+    background-size: cover;
+    height:100vh;
+}
+.subapp{
+    border-style: solid;
+    border-radius: 50px;
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    justify-content:center;
+    position:fixed;
+    top:200px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-color: whitesmoke;
+}
+.prisonh1{
+    text-align: center;
+    color: #ff8b00;
+    font-family: "Mclaren", cursive;
+    font-style: italic;
+    font-weight: 1500;
+    font-size: 55px;
+}
+
+.createb1{
+        border-radius : 60px;
+    height: 70px;
+    background-color: #ff8b00;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+	overflow: hidden;
+	font-family: "Mclaren", cursive;
+	font-size: 16px;
+	font-weight: 500;
+    font-size: 20px;
+	cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+    }
+.createb1:hover{
+    background-color: black;
+}
+
+.readb1{
+
+    border-radius : 60px;
+    height: 70px;
+    background-color: #ff8b00;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+	overflow: hidden;
+	font-family: "Mclaren", cursive;
+	font-size: 16px;
+	font-weight: 500;
+    font-size: 20px;
+	cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.readb1:hover{
+    background-color: black;
+}
+
+.updateb1{
+
+    border-radius : 60px;
+    height: 70px;
+    background-color: #ff8b00;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+	overflow: hidden;
+	font-family: "Mclaren", cursive;
+	font-size: 16px;
+	font-weight: 500;
+    font-size: 20px;
+	cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.updateb1:hover{
+    background-color: black;
+}
+.deleteb1{
+
+    border-radius : 60px;
+    height: 70px;
+    background-color:#ff8b00;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+	overflow: hidden;
+	font-family: "Mclaren", cursive;
+	font-size: 16px;
+	font-weight: 500;
+    font-size: 20px;
+	cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.deleteb1:hover{
+    background-color: black;
+}
+
+.aggregateb1{
+    border-radius : 60px;
+    height: 70px;
+    background-color:#ff8b00;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+	overflow: hidden;
+	font-family: "Mclaren", cursive;
+	font-size: 16px;
+	font-weight: 500;
+    font-size: 20px;
+	cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.aggregateb1:hover{
+    background-color: black;
+}

@@ -1,0 +1,164 @@
+.createPage{
+    background-image: url("../prison.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.create3{
+    text-align: center;
+    color: #ff8b00;
+    font-family: "Mclaren", cursive;
+    font-style: italic;
+    font-weight: 1500;
+    font-size: 45px;
+}
+
+.create2{
+    border-style: solid;
+    border-radius: 50px;
+    height: 580px;
+    width: 500px;
+    margin: auto;
+    justify-content:center;
+    position:fixed;
+    top:200px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-color: whitesmoke;
+}
+.prisonerb1{
+    border-radius : 60px;
+height: 70px;
+background-color: #ff8b00;
+display: block;
+width: 200px;
+margin: 0 auto;
+justify-content: center;
+overflow: hidden;
+font-family: "Mclaren", cursive;
+font-size: 16px;
+font-weight: 500;
+font-size: 20px;
+cursor: pointer;
+text-align: center;
+color: whitesmoke;
+}
+.prisonb1:hover{
+    background-color: black;
+}
+
+.prisonb1{
+
+border-radius : 60px;
+height: 70px;
+background-color: #ff8b00;
+display: block;
+width: 200px;
+margin: 0 auto;
+justify-content: center;
+overflow: hidden;
+font-family: "Mclaren", cursive;
+font-size: 16px;
+font-weight: 500;
+font-size: 20px;
+cursor: pointer;
+text-align: center;
+color: whitesmoke;
+}
+
+.prisonb1:hover{
+background-color: black;
+}
+
+.visitorb1{
+
+border-radius : 60px;
+height: 70px;
+background-color: #ff8b00;
+display: block;
+width: 200px;
+margin: 0 auto;
+justify-content: center;
+overflow: hidden;
+font-family: "Mclaren", cursive;
+font-size: 16px;
+font-weight: 500;
+font-size: 20px;
+cursor: pointer;
+text-align: center;
+color: whitesmoke;
+}
+
+.visitorb1:hover{
+background-color: black;
+}
+.guardb1{
+
+border-radius : 60px;
+height: 70px;
+background-color:#ff8b00;
+display: block;
+width: 200px;
+margin: 0 auto;
+justify-content: center;
+overflow: hidden;
+font-family: "Mclaren", cursive;
+font-size: 16px;
+font-weight: 500;
+font-size: 20px;
+cursor: pointer;
+text-align: center;
+color: whitesmoke;
+}
+
+.guardb1:hover{
+background-color: black;
+}
+
+.punishmentb1{
+
+    border-radius : 60px;
+    height: 70px;
+    background-color:#ff8b00;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+    font-family: "Mclaren", cursive;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: whitesmoke;
+    }
+    
+.punishmentb1:hover{
+    background-color: black;
+    }
+
+.paroleb1{
+
+        border-radius : 60px;
+        height: 70px;
+        background-color:#ff8b00;
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        justify-content: center;
+        overflow: hidden;
+        font-family: "Mclaren", cursive;
+        font-size: 16px;
+        font-weight: 500;
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+        color: whitesmoke;
+        }
+        
+.paroleb1:hover{
+        background-color: black;
+        }
